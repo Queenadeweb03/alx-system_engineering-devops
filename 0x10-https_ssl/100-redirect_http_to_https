@@ -35,21 +35,11 @@ defaults
 
 frontend myfrontend
 	bind *:80
-<<<<<<< HEAD
-	bind *:443 ssl crt /etc/haproxy/certs/www.uniqueel.tech.pem
-	http-request redirect scheme https code 301 if { hdr(Host) -i www.uniqueel.tech } !{ ssl_fc }
-=======
-	bind *:443 ssl crt /etc/haproxy/certs/www.queenofcode.tech.pem
-	http-request redirect scheme https code 301 if { hdr(Host) -i www.queenofcode.tech } !{ ssl_fc }
->>>>>>> baddb0e3ac847275fede2bb298e8a182b7e9f840
+	bind *:443 ssl crt /etc/haproxy/certs/www.zeeweb.tech.pem
+	http-request redirect scheme https code 301 if { hdr(Host) -i www.zeeweb.tech } !{ ssl_fc }
 	default_backend myservers
 
 backend myservers
 	balance roundrobin
-<<<<<<< HEAD
-	server web-01 54.86.220.207:80 check
-	server web-02 54.175.137.217:80 check	
-=======
-	server web-01 54.157.174.222:80 check
-	server web-02 52.91.145.125:80 check
->>>>>>> baddb0e3ac847275fede2bb298e8a182b7e9f840
+	server web-01 100.24.74.197:80 check
+	server web-02 52.91.117.197:80 check	
