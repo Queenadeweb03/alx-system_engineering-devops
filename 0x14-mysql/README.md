@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Mysql
-
-#AUTHOR
-Umar Faruq Adam<Umarfaruqadam03@gmail.com>
-=======
 ## Signature.key
 https://dev.mysql.com/doc/refman/5.7/en/checking-gpg-signature.html
 
@@ -43,4 +37,3 @@ https://www.hostinger.com/tutorials/mysql-show-users/#:~:text=2.-,Use%20the%20My
 ## mysql: Show GRANTs for all users
 https://dba.stackexchange.com/questions/23265/mysql-show-grants-for-all-users
 
->>>>>>> 8cc9913e9cc280611563a5f240da8bac291a7b25

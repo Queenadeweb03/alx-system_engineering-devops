@@ -1,4 +1,9 @@
 # API
-#Author
-Umar Faruq Adam
-<Umarfaruqadam03@gmail.com>
+
+```diff
+
++ Fully Done
+- By Author:
++ Afolabi John Oluwaseun
+
+```

@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
-# Generates a compressed archive of a MySQL dump.
-mysqldump -uroot -p"$1" --all-databases > backup.sql
-tar -cvzf "$(date +%d-%m-%Y)".tar.gz backup.sql
-=======
 # backup and compress my databases
 mysqldump --all-databases -u root --password="$1" > backup.sql
 day=$(date +"%d")
@@ -11,4 +6,3 @@ month=$(date +"%m")
 year=$(date +"%Y")
 file_name="$day-$month-$year.tar.gz"
 tar -czvf "$file_name" backup.sql
->>>>>>> 8cc9913e9cc280611563a5f240da8bac291a7b25
